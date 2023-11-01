@@ -1,1 +1,79 @@
 /* CSS stillerinizi buraya girin */
+header nav a{
+    display:flex;
+    display:inline-block;
+    padding:1em;
+    background-color:greenyellow;
+   
+    text-decoration:none;
+}
+header{
+    display:flex;
+    justify-content:space-between ;
+}
+
+main {
+    
+    width: 80vw;
+    height: 50vw;
+    background-image: url(https://picsum.photos/800/600);
+    background-size: cover;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+main a{
+    padding: 1em;
+    text-decoration: none;
+    background-color:white;
+    display:block;
+    width: 100px;
+    text-align:center;
+    border-radius:10px;
+
+
+}
+main h1{
+
+text-shadow: 2px 2px greenyellow;
+
+}
+ 
+.container-gallery{
+    margin:50px 0;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1em;
+}
+.container-gallery div{
+    padding: 20px;
+    width:30%;
+    justify-content: space-between;
+    
+}
+.container-gallery img{
+    width: 100%;
+}
+.container-gallery h3{
+    text-align: center;
+    margin-bottom:40px;
+}
+
+footer a {
+    padding: 50px;
+    text-decoration: none;
+    background-color:greenyellow;
+    display:block;
+    width: 100px;
+    text-align:center;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: greenyellow;
+    width: 100%;
+    
+}
